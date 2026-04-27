@@ -1,12 +1,12 @@
 package polimorfismo.animal;
 
 public class Animal{
-  // -- Atributos --
+  // Atributos
   private char sexo;
   protected int edad;
   float peso;
 
-
+  // Constructores
   public Animal() {}
 
   public Animal(char sexo, float peso, int edad) {
@@ -15,7 +15,7 @@ public class Animal{
     this.edad = edad;
   }
 
-  // -- Metodos --
+  // Metodos
   public char getSexo(){
     return sexo;
   } 
